@@ -1,4 +1,4 @@
-# E-mail_SignatureThemeDesign
+
 # 💌 Plantilla de Firma de Email 💌
 
 ¡Hola! Soy Eduardo J. Barrios y he creado esta elegante plantilla de firma de email personalizable para Gmail, ideal para profesionales que desean destacar en su comunicación diaria. 👔💼
