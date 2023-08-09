@@ -26,6 +26,10 @@
 </body>
 </html>
 ```
+Para obtener una vista previa en vivo y en acción de la firma, haz clic en el siguiente enlace:
+
+[Ver la Firma en CodePen](https://codepen.io/edujbarrios/pen/JjeqMQW)
+
 ## 🚀 Cómo usar 🚀
 Copia el código HTML proporcionado.
 Abre Gmail y haz clic en el engranaje en la parte superior derecha para acceder a "Ver todos los ajustes".
