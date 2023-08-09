@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        .signature {
+            background-color: #2b2e2e;
+            padding: 25px;
+            border-radius: 15px;
+            font-family: 'Roboto', sans-serif;
+            max-width: 600px;
+            border: 1px solid #5ec9c9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .signature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .signature-content {
+            flex-grow: 1;
+        }
+
+        .signature a,
+        .signature p {
+            color: #b8e9e9;
+            margin: 0;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .signature a {
+            color: #5ec9c9;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .signature a:hover {
+            color: #4fa8a8;
+            text-decoration: none;
+        }
+
+        .name {
+            font-weight: 700;
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #FFFFFF;
+        }
+
+        .position {
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #5ec9c9;
+            margin: 20px 0;
+        }
+
+        .bold-after-divider {
+            font-weight: 700;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="signature">
+        <div class="signature-content">
+            <p class="name">Eduardo J. Barrios</p>
+            <p class="position">Jefe De Proyectos - EMPRESA S.L</p>
+            <p class="position">Ingeniero de software entre otras aptitudes</p>
+            <div class="divider"></div>
+            <p class="position bold-after-divider"><span class="icon">📞</span>WhatsApp: <a href="">+34 222 22 22 22</a></p>
+            <p class="position bold-after-divider"><span class="icon">✉️</span>Email: <a href="mailto:eduardojbarriosgarcia@gmail.com">eduardojbarriosgarcia@gmail.com</a></p>
+            <p class="position bold-after-divider"><span class="icon">🌐</span>Descubre más en: <a href="https://github.com/edujbarrios">Mi GitHub</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
